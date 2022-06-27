@@ -1,0 +1,360 @@
+:root{
+    --colorPrimario-fondos: black;
+    --colorPrimario-botones:rgb(255, 255, 255);
+    --colorPrimario-Contenedores:rgba(255, 255, 255, 0.167);
+    
+  }
+
+
+*{
+    font-family: 'Staatliches', cursive;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    min-height: 100vh;
+}
+.body{
+    background-color: rgb(0, 0, 0); 
+    color: aliceblue; 
+    height: 100%;
+    min-height: 100%;
+
+    
+// Pagina de inicio
+
+    .Pag1{
+        display: flex;
+    }
+    
+    .avatar{
+        width: 650px;
+        margin-right: 40px;
+        border-radius: 50%;
+        margin-top: 100px;
+
+    }
+    .avatar2desk{
+       display: none;
+    }
+    
+    .yoCartoon2{
+        display: none;
+    }
+
+    .Bloque-izq{
+        margin-left: 50px;
+       width: 100%;
+
+    }
+
+    h3{
+        width: 100%;
+        margin: 30px 0px 0px 0px;
+        font-size: 50px;
+
+    }
+
+    h2{
+        width: 100%;
+        margin: 82px 0px 0px 0px;
+        font-size: 50px;
+    }
+    h1{
+        width: 100%;
+        margin: 82px 82px 70px 108px82px 181px 70px 108px;;
+        font-size: 80px;
+    }
+    
+    .botones{
+        display: flex;
+        margin: 82px 0px 0px 0px;
+        
+       button{
+         font-size: 50px;
+        border-radius: 10px;
+        margin-left: 20px; 
+        color: black;
+        padding: 10px;
+        a{
+            color: #0997e3;
+        }
+        
+       }
+ .Descargar {
+        font-size: 50px;
+       }
+      
+    }
+
+// footer
+
+    .redes{
+        display: flex ;
+        a{
+            width: 100px;
+            margin-top: 20px ;
+            margin-left: 20px;
+        }
+    }
+
+    a{
+        text-decoration: none;
+       
+    }
+
+    //Menu de navegacion 
+
+header{
+    min-height: 100px;
+    background-color:var(--colorPrimario-Contenedores);
+    margin-bottom: 0px;
+    nav{
+        display: flex;
+        
+      
+        img{
+            width: 300px;
+            
+            margin-top: 30px;
+
+        }
+        .menu{
+            display: flex;     
+            padding-left: 484px;
+            align-items: center;
+        }
+
+        ul{
+            display: flex;
+            text-decoration: none;
+            list-style: none;
+            
+            li{
+                padding-left: 20px;
+                a{
+                    text-decoration: none;
+                    color: aliceblue;
+                    font-size: 20px;
+                    
+                }
+            }
+        }
+    }
+}
+
+//     Sobre Mi
+
+.SobreMI{
+    display: flex;
+.infoSobreMi{
+    padding: 20px;
+    padding-left: 200px;
+    font-size: 20px;
+    padding-right: 200px;
+}
+.Fotoyo{
+    vertical-align: middle;
+    border-radius: 50px;
+    margin-left: 300px;
+    margin-top: 20px;
+    width: 400px;
+}
+   
+}
+
+//Conocimientos
+.Conocimientos{
+
+    .tituloConocimientos{
+        width: 300px;
+        h2{
+            border: 5px solid white;
+            margin: 20px;
+            border-radius: 10px;
+            padding-left: 10px;
+
+        }
+    }
+.CartaConocimientos{
+    margin-top: 100px;
+    margin-bottom: 150px;
+    margin-left: 60px;
+    color: black;
+    img{
+        width: 80px;
+    }
+    .imgAdobe{
+        width: 400px;
+        padding-right: 140px;
+         
+     }
+}
+
+
+}
+
+//Proyectos
+.Proyectos{
+    display: flex;
+    
+    .cartProyectos{
+    background-color: aliceblue;
+    width: 300px;
+    height: 450px;
+    margin: 20px;
+    border-radius: 10px;
+    
+    .TextoProyectos{
+        color: black;
+        h5{
+            font-size: 30px;
+            padding: 10px;
+        }
+        p{
+            margin: 5px;
+            padding-left: 10px;
+            font-size: 17px;
+        }
+    }
+    .FotoProyecto img{
+        width: 179px;
+        margin: 50px;
+        padding-left: 6px;
+    
+    }
+}
+}
+
+//CONTACTAME
+.FormularioContacto{
+   margin-left: 300px;
+   margin-top: 80px;
+   width: 690px;
+   height: 724px;
+   border: solid 2px white;
+   padding-bottom: 30px;
+   border-radius: 20px;
+   .FormCompleto{
+    width: 90%;
+    margin: 20px;
+    padding-bottom: 60px;
+   }
+   .enviar{
+    padding-left: 550px;
+    margin-bottom: 20px;
+    button{
+        padding: 10px;
+        font-size: 20px;
+        margin-top: 40px;
+    }
+   }
+
+}
+} 
+
+.avatar:hover {
+    transform: scale(110%);
+  }
+
+  .botones :hover {
+    transform: scale(110%);
+  }
+
+ .menuhambu{
+    display: none;
+  }
+
+  .cartProyectos:hover{
+    transform: scale(110%);
+  }
+
+@media only screen and (min-width: 1px) and (max-width: 424px){
+    .body{
+        background-color: #000000;
+        width: 100%;
+        height: 100%;
+    }
+ 
+ //Inicio
+    .Pag1{
+        display: flex;
+    }
+    
+    .Bloque-izq{
+    h2{
+        font-size: 20px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    h3{
+        font-size: 16px;
+    }
+    .botones{
+        padding-top: 50px;
+        display: flex;
+        margin: 5px;
+        
+       button{
+         font-size: 15px;
+        border-radius: 10px;
+        color: black;
+        padding-right: 5px;
+        a{
+            color: #000000;
+        }
+        }  
+        .Descargar {
+        font-size: 20px;
+       }
+    }
+      
+      
+    }
+
+    .avatar{
+        display: none;
+    }
+    .avatar2desk{
+        display:flex;
+        width: 50px;
+     }
+
+//sobre MI
+
+#imghambur{
+    display: none;
+}
+.menuhambu{
+    display: flex;
+  }
+
+.nav-desk{
+    display: none;
+}
+
+.menuhambur{
+    display: flex;
+}
+
+   
+
+.infoSobreMiMobil{
+    padding: 0; 
+    padding-left: 0px; 
+    font-size: 10px; 
+    padding-right: 0px;
+    
+}
+.FotoyoMobil{
+       vertical-align: middle; 
+       border-radius: 50px;
+    margin-left: 300px; 
+    margin-top: 20px;
+}
+   
+}
